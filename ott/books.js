@@ -200,8 +200,6 @@ document.getElementById("search").addEventListener("click", () => {
   //initializations
   let searchInput = document.getElementById("search-input").value;
   let elements = document.querySelectorAll(".product-name");
-  console.log(elements)
-  console.log(authors)
   let cards = document.querySelectorAll(".card");
 
   //loop through all elements
